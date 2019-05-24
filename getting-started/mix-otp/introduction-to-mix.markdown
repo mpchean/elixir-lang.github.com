@@ -189,8 +189,11 @@ Mix also generated a file named `test/test_helper.exs` which is responsible for 
 ExUnit.start()
 ```
 
-This file will be required by Mix every time before we run our tests. We can run tests with `mix test`:
+This file will be required by Mix every time before we run our tests. We can run tests with:
 
+```elixir
+mix test
+```
     Compiled lib/kv.ex
     Generated kv app
     ..
